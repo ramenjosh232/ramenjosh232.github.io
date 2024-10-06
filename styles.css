@@ -1,0 +1,84 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f3e5f5; 
+}
+
+
+header {
+    background-color: #6a1b9a; 
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+header p {
+    font-size: 1.2em;
+}
+
+
+.monumentos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 40px 20px; 
+    background-color: #ffffff;
+}
+
+.monumento {
+    width: 30%;
+    margin: 20px;
+    padding: 30px;
+    border-radius: 50%; 
+    background-color: #8e24aa; 
+    color: #ffffff; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+    transition: transform 0.3s; /* Animacion para monumento en hover */
+}
+
+.monumento:hover {
+    transform: scale(1.05); /* Efecto de aumento en hover */
+}
+
+.monumento img {
+    width: 60%;
+    height: auto;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    border: 5px solid #ffffff; 
+    transition: transform 0.3s; 
+}
+
+.monumento:hover img {
+    transform: scale(1.1); 
+}
+
+.monumento h2 {
+    font-size: 1.5em;
+    margin: 10px 0;
+}
+
+.monumento p {
+    font-size: 1em;
+    line-height: 1.6;
+}
+
+footer {
+    background-color: #6a1b9a; 
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    margin-top: 20px;
+}
